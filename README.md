@@ -40,15 +40,15 @@ To run this application the following requirements are needed:
                   "tweet": "Hey there how are you today?"
               }
             ```
-   5. Follow an User: `_/follow/{userNameYouWantToFollow}_`
+   5. Follow a User: `_/follow/{userNameYouWantToFollow}_`
         1. Request Type: POST
    6. Like a Post: `_/like/{tweetId}_`
         1. Request Type: POST
    7. Show Feeds: `_/showFeeds_`
         1. Request Type: GET
-   8. List of all Post for an user: `_/searchAllPost/{userName}_`
+   8. List of all Post for a user: `_/searchAllPost/{userName}_`
         1. Request Type: GET
-   9. Search for an User: `_/search/{userName}_`
+   9. Search for a User: `_/search/{userName}_`
         1. Request Type: GET
 
    
