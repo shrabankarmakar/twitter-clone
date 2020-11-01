@@ -19,7 +19,7 @@ To run this application the following requirements are needed:
                   "fullName":"Shraban Karmakar"
               }
             ```
-   2. LogIn: _/login_
+   2. Log In: _/login_
         1. Request Type: POST
         2. Sample POST Request Body:
             ```js
@@ -29,6 +29,22 @@ To run this application the following requirements are needed:
                   "password": "tweet@123"
               }
             ```
-   3. LogOut: _/logout_
+   3. Log Out: _/logout_
         1. Request Type: POST
-        2. Sample POST Request Body.
+   4. Create Post: _/createPost
+        1. Request Type: POST
+        2. Sample POST Request Body:
+            ```js
+            
+              {
+                  "tweet": "Hey there how are you today?"
+              }
+            ```
+   5. Follow an User: _/follow/{userNameYouWantToFollow}
+        1. Request Type: POST
+   7. Like a Post: _/like/{tweetId}
+        1. Request Type: POST
+   8. Show Feeds: _/showFeeds
+        1. Request Type: GET
+   9. List of all Post for an user: _/searchAllPost/{userName}
+        1. Request Type: GET
