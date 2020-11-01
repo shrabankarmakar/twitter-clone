@@ -36,7 +36,7 @@ public class UserController {
 		if (userRepo.save(user) == null) {
 			return "Something Went Wrong";
 		}
-		return "Resgisterd Successfully";
+		return "Registerd Successfully";
 	}
 
 	@GetMapping("/search/{username}")
