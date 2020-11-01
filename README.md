@@ -31,7 +31,7 @@ To run this application the following requirements are needed:
             ```
    3. Log Out: _/logout_
         1. Request Type: POST
-   4. Create Post: _/createPost
+   4. Create Post: _/createPost_
         1. Request Type: POST
         2. Sample POST Request Body:
             ```js
@@ -40,11 +40,11 @@ To run this application the following requirements are needed:
                   "tweet": "Hey there how are you today?"
               }
             ```
-   5. Follow an User: _/follow/{userNameYouWantToFollow}
+   5. Follow an User: _/follow/{userNameYouWantToFollow}_
         1. Request Type: POST
-   7. Like a Post: _/like/{tweetId}
+   7. Like a Post: _/like/{tweetId}_
         1. Request Type: POST
-   8. Show Feeds: _/showFeeds
+   8. Show Feeds: _/showFeeds_
         1. Request Type: GET
-   9. List of all Post for an user: _/searchAllPost/{userName}
+   9. List of all Post for an user: _/searchAllPost/{userName}_
         1. Request Type: GET
