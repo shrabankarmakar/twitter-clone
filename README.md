@@ -8,13 +8,27 @@ To run this application the following requirements are needed:
    * In memory SQL Database: H2
   
  **Functionalities along with APIs**:
-  1. User Registration: /register
+  1. User Registration: _/register_
         1. Request Type: POST
         2. Sample POST Request Body:
-                     <h6 style="color:red;">
-                                  {<br> 
-                                    "userName": "shraban",<br> 
-                                    "password": "tweet@123",<br> 
-                                    "fullName":"Shraban Karmakar"<br> 
-                                  }
-                     </h6>
+            ```js
+            
+              {
+                  "userName": "shraban",
+                  "password": "tweet@123",
+                  "fullName":"Shraban Karmakar"
+              }
+            ```
+   2. LogIn: _/login_
+        1. Request Type: POST
+        2. Sample POST Request Body:
+            ```js
+            
+              {
+                  "userName": "shraban",
+                  "password": "tweet@123"
+              }
+            ```
+   3. LogOut: _/logout_
+        1. Request Type: POST
+        2. Sample POST Request Body.
